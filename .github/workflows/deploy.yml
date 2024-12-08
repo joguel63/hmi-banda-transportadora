@@ -30,7 +30,7 @@ jobs:
           git config --global user.name "joguel63"
 
       - name: Configure remote URL with token
-        run: git remote set-url origin https://x-access-token:${{ secrets.TOKEN }}@github.com/hmi-banda-transportadora.git
+        run: git remote set-url origin https://x-access-token:${{ secrets.TOKEN }}@github.com/joguel63/hmi-banda-transportadora
 
       - name: Deploy to GitHub Pages
         run: npx gh-pages -d dist
