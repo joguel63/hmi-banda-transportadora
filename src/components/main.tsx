@@ -16,8 +16,8 @@ const Main: React.FC = () => {
   } = useProcessLogic();
 
   const item = tipoPieza === "A" ? "Item A" : "Item B";
-
   const presenceSensorLabel = sensorPresencia ? "Item detectado" : "No hay items";
+
   return (
     <Box sx={{ padding: 3, maxWidth: 1024, mx: "auto" }}>
       <Grid container spacing={2}>
