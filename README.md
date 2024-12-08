@@ -4,6 +4,7 @@
 **Cédula de Identidad:** 25633238  
 **Materia:** Automatización
 
+## Enlace del proyecto desplegado: https://joguel63.github.io/hmi-banda-transportadora/
 ---
 
 ## Descripción del Proyecto
