@@ -1,4 +1,3 @@
-
 name: Deploy to GitHub Pages
 
 on:
@@ -24,6 +23,11 @@ jobs:
 
       - name: Build project
         run: yarn build
+
+      - name: Configure Git
+        run: |
+          git config --global user.email "joguel63@gmail.com"
+          git config --global user.name "joguel63"
 
       - name: Deploy to GitHub Pages
         run: npx gh-pages -d dist
