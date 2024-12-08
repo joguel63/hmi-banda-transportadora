@@ -6,7 +6,7 @@ const Header: React.FC = () => {
     <AppBar position="static">
       <Toolbar>
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-          HMI - Banda Transportadora
+          HMI - Banda Transportadora - Jose Miguel Muñoz Velasco
         </Typography>
       </Toolbar>
     </AppBar>
