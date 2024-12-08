@@ -49,7 +49,7 @@ yarn start
 
 ### Notas
 
-El comando `yarn start` iniciará el servidor de desarrollo. Una vez iniciado, la interfaz HMI estará disponible en el navegador web.
+El comando `yarn dev` iniciará el servidor de desarrollo. Una vez iniciado, la interfaz HMI estará disponible en el navegador web.
 
 ```plaintext
 http://localhost:5173
