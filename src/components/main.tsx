@@ -16,6 +16,8 @@ const Main: React.FC = () => {
   } = useProcessLogic();
 
   const item = tipoPieza === "A" ? "Item A" : "Item B";
+
+  const presenceSensorLabel = sensorPresencia ? "Item detectado" : "No hay items";
   return (
     <Box sx={{ padding: 3, maxWidth: 1024, mx: "auto" }}>
       <Grid container spacing={2}>
@@ -34,7 +36,7 @@ const Main: React.FC = () => {
           />
         </Grid>
         <Grid item xs={6}>
-          <StatusCard title="Sensor de Presencia" value={sensorPresencia ? 1 : 0} color="#ff9800" />
+          <StatusCard title="Sensor de Presencia" value={presenceSensorLabel} color="#ff9800" />
         </Grid>
 
         <Grid item xs={4}>
